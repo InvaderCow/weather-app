@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="searchBar">
+        <div class="firstInput">
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Type a city..."
+            autofocus="on"
+            autocomplete="off"
+          />
+          <button>Search</button>
+        </div>
+      </form>
+      <h1>Cape Town</h1>
+      <ul>
+        <li id="date">Saturday 19:28</li>
+        <li>Sunny</li>
+      </ul>
+      <div class="temp">
+        <span class="emoji">☀️ 22</span>
+        <span class="degrees">°C | °F</span>
+        <ul class="moreInfo">
+          <li>Precipitation: 10%</li>
+          <li>Humidity: 55%</li>
+          <li>Wind: 18km/h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="js">
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
