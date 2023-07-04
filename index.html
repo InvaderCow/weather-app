@@ -19,7 +19,9 @@
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper">
       <div class="weather-app">
+        <div class="overview">
       <h1>Weather</h1>
       <h2>
         Cape Town
@@ -32,10 +34,15 @@
           Fog
         </li>
       </ul>
+    </div>
       <div class="row">
         <div class="col-6">
-          <img src="https://ssl.gstatic.com/onebox/weather/64/fog.png" alt="Fog">
-          11°C | °F
+          <div class="d-flex weather-temperature">
+          <img src="https://ssl.gstatic.com/onebox/weather/64/fog.png" alt="Fog" id="icon"> <div>
+            <strong id="temperature">12</strong
+            ><span class="units"> °C | <a href="#">°F</a></span>
+          </div>
+        </div>
         </div>
         <div class="col-6">
           <ul>
@@ -45,10 +52,11 @@
           </ul>
         </div>
       </div>
-      <small>
+     
+    </div> <small>
         <a href="https://github.com/InvaderCow/weather-app" target="_blank">Open-source code</a> by Akhe Beja
       </small>
-    </div>
+  </div>
     </div>
     <script src="src/app.js"></script>
   </body>
