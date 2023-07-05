@@ -15,8 +15,6 @@ function formateDate(timestamp) {
 }
 
 function displayTemperature(response) {
-    console.log(response.data);
-    console.log(response.data.time * 1000);
     let temperatureElement = document.querySelector("#temperature");
     let cityElement = document.querySelector("#city")
     let forcastElement = document.querySelector("#forcast")
@@ -35,6 +33,5 @@ function displayTemperature(response) {
 let apiKey = "933bo60484t90d6fab93f7abb8a0f56b";
 let city = "Dubai";
 let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`
-console.log(apiUrl);
 
 axios.get(apiUrl).then(displayTemperature);
