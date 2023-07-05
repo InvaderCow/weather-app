@@ -21,6 +21,7 @@ li {
   color: #878787;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
   font-size: 15px;
   font-weight: 100px;
   line-height: 19px;
@@ -43,7 +44,7 @@ li {
   width: 64px;
 }
 #temperature {
-  font-size: 46px;
+  font-size: 44px;
   line-height: 60px;
   font-weight: 400;
 }
