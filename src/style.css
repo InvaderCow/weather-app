@@ -14,7 +14,7 @@ ul {
 }
 li {
   list-style: none;
-  color: #878787;
+  color: #34699a;
   margin: 0;
   padding: 0;
   font-size: 15px;
@@ -27,6 +27,7 @@ li::first-letter {
 .weather-app-wrapper {
    max-width: 600px;
   margin: 30px auto;
+  color:#113f67;
 }
 .weather-app {
   padding: 20px;
