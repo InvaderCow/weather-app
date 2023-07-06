@@ -64,3 +64,13 @@ li::first-letter {
 .extra {
   margin-bottom: 40px;
 }
+.weather-temperature .active {
+  text-decoration: none;
+  color: #113f67;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
